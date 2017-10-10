@@ -16,6 +16,7 @@ html {
 
 .heading {
   font-family: "Roboto Slab", serif;
+  margin: 1em;
 }
 
 header {
@@ -28,4 +29,12 @@ header {
   height: 25em;
   justify-content: center;
   flex-direction: column;
+  display: flex;
+  text-align: left;
+}
+.heading--one {
+  color: white;
+}
+.cardlist {
+  flex-direction: row;
 }
