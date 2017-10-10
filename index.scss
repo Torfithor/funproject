@@ -14,14 +14,15 @@ html {
 header {
   background: transparent url("bg.jpg") fixed 50% 50%;
   background-size: cover;
-  position: relative;
-  text-align: center;
   opacity: 0.8;
   width: 100%;
   height: 60em; // þarf að gera hæðina sjálfgefna
+  position: relative;
+  text-align: center;
   justify-content: center;
   flex-direction: column;
   display: flex;
+  margin-bottom: 5em;
 }
 
 h1 {
@@ -37,6 +38,10 @@ h2 {
 h3 {
   display: flex;
   font-size: 1em;
+}
+
+h4 {
+  display: flex;
 }
 
 button {
@@ -60,6 +65,19 @@ button {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.checklist {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5em;
+}
+
+
+.cardlist {
+  display: flex;
+  margin-bottom: 5em;
 }
 
 .button:hover {
@@ -87,6 +105,10 @@ html {
 
 img {
   max-width: 100%;
+}
+
+.botnsidu {
+  text-align: center;
 }
 
 main {
