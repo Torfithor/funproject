@@ -12,21 +12,27 @@ html {
 }
 
 header {
-  background: transparent url("bg.jpg");
+  background: transparent url("bg.jpg") fixed 50% 50%;
   background-size: cover;
   position: relative;
   text-align: center;
   opacity: 0.8;
   width: 100%;
-  height: 25em;
+  height: 60em;
   justify-content: center;
   flex-direction: column;
   display: flex;
 }
 
+h1 {
+  font-size: 3em;
+  transition: 700ms 1s ease-in;
+}
+
 h2 {
   text-align: center;
-
+  font-size: 1.5em;
+  transition: 700ms 3s ease-in;
 }
 
 *,
