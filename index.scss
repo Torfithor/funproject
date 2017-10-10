@@ -26,13 +26,44 @@ header {
 
 h1 {
   font-size: 3em;
-  transition: 700ms 1s ease-in;
+  //transition: 700ms 1s linear;
 }
 
 h2 {
-  text-align: center;
   font-size: 1.5em;
-  transition: 700ms 3s ease-in;
+  //transition: 700ms 3s linear;
+}
+
+h3 {
+  display: flex;
+  font-size: 1em;
+}
+
+button {
+  font-family: "Lato", helvetica, arial, sans-serif;
+  font-size: 1em;
+  color: #eee;
+  max-width: 6em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px #666;
+  border-radius: 1px;
+  background-color: #666;
+  text-overflow: ellipsis;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button:hover {
+  background-color: #333;
 }
 
 *,
