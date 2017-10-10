@@ -21,10 +21,12 @@ header {
   height: 25em;
   justify-content: center;
   flex-direction: column;
+  display: flex;
 }
 
 h2 {
   text-align: center;
+
 }
 
 *,
