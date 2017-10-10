@@ -47,3 +47,22 @@ blockquote {
   line-height: 1.5;
   font-style: italic;
 }
+
+footer {
+  background-color: #4d4d4d;
+  color: white;
+}
+
+.bottom {
+  border-top: solid gray 1px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.leftright {
+  display: flex;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
