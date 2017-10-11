@@ -25,14 +25,26 @@ header {
   margin-bottom: 5em;
 }
 
+@keyframes fadeIn {
+from { opacity:0; } to { opacity:1; }
+}
+
 h1 {
   font-size: 3em;
-  //transition: 700ms 1s linear;
+    opacity: 0;
+    animation:fadeIn ease-in 1;
+    animation-fill-mode:forwards;
+    animation-duration:2s;
+    animation-delay: 1.5s
 }
 
 h2 {
   font-size: 1.5em;
-  //transition: 700ms 3s linear;
+  opacity: 0;
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:1s;
+  animation-delay: 1s
 }
 
 h3 {
@@ -65,6 +77,11 @@ button {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0;
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:1s;
+  animation-delay: 3s
 }
 
 .checklist {
