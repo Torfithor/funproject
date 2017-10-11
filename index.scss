@@ -85,7 +85,6 @@ button {
 }
 
 .checklist {
-  float: left;
   flex-direction: column;
   margin-bottom: 5em;
 }
@@ -95,6 +94,10 @@ button {
   display: flex;
   margin-bottom: 5em;
   word-break: normal;
+}
+
+.midjumynd {
+  width: 100%;
 }
 
 .button:hover {
