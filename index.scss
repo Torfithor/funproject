@@ -22,7 +22,7 @@ header {
   justify-content: center;
   flex-direction: column;
   display: flex;
-  margin-bottom: 5em;
+  margin-bottom: 10em;
 }
 @keyframes fadeIn {
   from {
@@ -61,31 +61,6 @@ h4 {
   display: flex;
 }
 
-button {
-  font-family: "Lato", helvetica, arial, sans-serif;
-  font-size: 1em;
-  color: #eee;
-  max-width: 6em;
-  padding: 10px 5px;
-  border: 1px #666;
-  border-radius: 1px;
-  background-color: #666;
-  text-overflow: ellipsis;
-  text-align: center;
-  text-decoration: none;
-  overflow: hidden;
-  white-space: nowrap;
-  cursor: pointer;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 0;
-  animation: fadeIn ease-in 1;
-  animation-fill-mode: forwards;
-  animation-duration: 1s;
-  animation-delay: 3s;
-}
-
 .fullstaerd {
   box-sizing: inherit;
 }
@@ -100,12 +75,13 @@ button {
 
 .cardlist {
   display: flex;
-  margin-bottom: 5em;
+  margin-bottom: 10em;
   word-break: normal;
+  text-align: center;
 }
 
-.button:hover {
-  background-color: #333;
+.tilvitnun {
+  font-style: italic;
 }
 
 *,
