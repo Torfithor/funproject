@@ -5,3 +5,19 @@
   text-align: center;
   justify-content: space-around;
 }
+
+@media (max-width: 600px){
+.cardlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+@media (max-width: 400px){
+.cardlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+}

@@ -28,13 +28,6 @@ html {
   display: flex;
 }
 
-.midjumynd {
-  max-width: 100%;
-}
-
-.tilvitnun {
-  font-style: italic;
-}
 *,
 *:after,
 *:before {
@@ -49,6 +42,7 @@ html {
   font-family: Lato, helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+
   @media (min-width: $max-width ) {
     margin: 0;
   }
@@ -63,6 +57,7 @@ main {
   margin: 0 auto;
   overflow-x: hidden;
 }
+
 @import "scss/grid";
 @import "scss/header";
 @import "scss/heading";

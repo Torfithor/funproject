@@ -1,4 +1,26 @@
 .checklist {
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   display: block;
 }
+
+.checklist-row {
+  display: flex;
+}
+
+@media (max-width: 600px){
+  .checklist {
+    margin-bottom: 1em;
+  }
+.checklist-row {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+@media (max-width: 400px){
+  .checklist-row {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
