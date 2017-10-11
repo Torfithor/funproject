@@ -24,27 +24,32 @@ header {
   display: flex;
   margin-bottom: 5em;
 }
-
 @keyframes fadeIn {
-from { opacity:0; } to { opacity:1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 h1 {
   font-size: 3em;
-    opacity: 0;
-    animation:fadeIn ease-in 1;
-    animation-fill-mode:forwards;
-    animation-duration:2s;
-    animation-delay: 1.5s
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
 }
 
 h2 {
   font-size: 1.5em;
   opacity: 0;
-  animation:fadeIn ease-in 1;
-  animation-fill-mode:forwards;
-  animation-duration:1s;
-  animation-delay: 1s
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 
 h3 {
@@ -61,10 +66,7 @@ button {
   font-size: 1em;
   color: #eee;
   max-width: 6em;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 10px 5px;
   border: 1px #666;
   border-radius: 1px;
   background-color: #666;
@@ -78,26 +80,28 @@ button {
   margin-left: auto;
   margin-right: auto;
   opacity: 0;
-  animation:fadeIn ease-in 1;
-  animation-fill-mode:forwards;
-  animation-duration:1s;
-  animation-delay: 3s
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 3s;
 }
 
-.checklist {
-  flex-direction: column;
-  margin-bottom: 5em;
+.fullstaerd {
+  box-sizing: inherit;
 }
 
+.checklist-row {
+  display: flex;
+}
+
+.midjumynd {
+  max-width: 100%;
+}
 
 .cardlist {
   display: flex;
   margin-bottom: 5em;
   word-break: normal;
-}
-
-.midjumynd {
-  width: 100%;
 }
 
 .button:hover {
