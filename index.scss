@@ -10,20 +10,6 @@ html {
   box-sizing: border-box;
   font-size: 16px;
 }
-
-header {
-  background: transparent url("bg.jpg") fixed 50% 50%;
-  background-size: cover;
-  opacity: 0.8;
-  width: 100%;
-  height: 60em; // þarf að gera hæðina sjálfgefna
-  position: relative;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  display: flex;
-  margin-bottom: 10em;
-}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -32,33 +18,6 @@ header {
   to {
     opacity: 1;
   }
-}
-
-h1 {
-  font-size: 3em;
-  opacity: 0;
-  animation: fadeIn ease-in 1;
-  animation-fill-mode: forwards;
-  animation-duration: 2s;
-  animation-delay: 1.5s;
-}
-
-h2 {
-  font-size: 1.5em;
-  opacity: 0;
-  animation: fadeIn ease-in 1;
-  animation-fill-mode: forwards;
-  animation-duration: 1s;
-  animation-delay: 1s;
-}
-
-h3 {
-  display: flex;
-  font-size: 1em;
-}
-
-h4 {
-  display: flex;
 }
 
 .fullstaerd {
@@ -73,17 +32,9 @@ h4 {
   max-width: 100%;
 }
 
-.cardlist {
-  display: flex;
-  margin-bottom: 10em;
-  word-break: normal;
-  text-align: center;
-}
-
 .tilvitnun {
   font-style: italic;
 }
-
 *,
 *:after,
 *:before {
