@@ -31,10 +31,11 @@ header {
   justify-content: center;
   flex-direction: column;
   margin-bottom: 2em;
+  padding-left: 1em;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4em;
   color: white;
 }
 
@@ -47,8 +48,29 @@ blockquote {
   line-height: 1.5;
   font-style: italic;
 }
+/*
+@media (min-width: 50em) {
+  .card__image {
+    min-width: 25em;
+  }
+}
+
+@media (max-width: 50em) {
+  .card {
+    flex-direction: column;
+  }
+  .card__content {
+    width: 100%;
+  }
+  .card__image {
+    width: 100%;
+  }
+}
+*/
+/*FOOTER STARTS*/
 
 footer {
+  margin-top: 1em;
   background-color: #4d4d4d;
   color: white;
 }
@@ -67,6 +89,10 @@ footer {
   padding-bottom: 1em;
 }
 
+/*FOOTER ENDS*/
+
+/*TOP PART STARTS*/
+
 .top {
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
@@ -76,7 +102,6 @@ footer {
 }
 
 .top--buttons > button {
-  color: white;
   padding: 0.5em;
 }
 .button--1 {
@@ -89,3 +114,10 @@ footer {
   border: none;
   border-radius: 5px;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*TOP PART ENDS*/
