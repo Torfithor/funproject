@@ -16,7 +16,16 @@
 .check__img {
   margin: 5px;
 }
+
 @media (max-width: 600px) {
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 400px){
+  .checklist-row {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 }
