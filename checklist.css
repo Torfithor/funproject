@@ -16,3 +16,7 @@
 .check__img {
   margin: 5px;
 }
+@media (max-width: 600px) {
+  display: flex;
+  flex-direction: column;
+}

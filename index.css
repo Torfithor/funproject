@@ -70,3 +70,5 @@ main {
 @import "scss/button";
 @import "scss/card";
 @import "scss/cardlist";
+@import "scss/checklist";
+@import "scss/img";
