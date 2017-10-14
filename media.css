@@ -1,9 +1,12 @@
 @media (max-width: 600px) {
 
   header {
-      margin-bottom: 2em;
+      margin-bottom: 4em;
   }
 
+  .cardlist {
+    margin-bottom: 4em;
+  }
   .checklist-row {
   display: flex;
   flex-direction: column;
@@ -19,6 +22,10 @@
       align-items: center;
     }
 
+    .midjumynd {
+      width: 100%;
+      margin: 1em;
+    }
     .profile__img {
       width: 50%
     }
