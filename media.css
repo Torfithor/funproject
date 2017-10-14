@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+
+  header {
+      margin-bottom: 2em;
+  }
+
+  .checklist-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+  .checklist.col-6 {
+  margin-bottom: 1em;
+  }
+    .cardlist {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .profile__img {
+      width: 50%
+    }
+  }
+}
+
+@media (max-width: 400px){
+  .checklist-row {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+    .cardlist {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}

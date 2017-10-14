@@ -17,14 +17,6 @@ html {
   }
 }
 
-.fullstaerd {
-  box-sizing: inherit;
-}
-
-.checklist-row {
-  display: flex;
-}
-
 *,
 *:after,
 *:before {
@@ -37,7 +29,7 @@ html {
   font-family: Lato, helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-
+}
 
 .botnsidu {
   text-align: center;
@@ -58,3 +50,4 @@ main {
 @import "css/cardlist";
 @import "css/checklist";
 @import "css/img";
+@import "css/media";

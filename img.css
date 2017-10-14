@@ -7,7 +7,7 @@ img.check__img {
   float: left;
 }
 
-
 .midjumynd {
-width: 100%;
+max-width: 100%;
+padding-right: 5px;
 }
