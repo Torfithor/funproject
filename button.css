@@ -24,5 +24,6 @@ button {
 }
 
 button:hover {
+  color: inherit;
   background-color: #333;
 }

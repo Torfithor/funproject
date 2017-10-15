@@ -1,4 +1,5 @@
 header {
+  color: inherit;
   background: transparent url("bg.jpg") fixed 50% 50%;
   background-size: cover;
   background-position: center;
