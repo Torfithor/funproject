@@ -48,13 +48,13 @@ blockquote {
   line-height: 1.5;
   font-style: italic;
 }
-
-@media (max-width: 400px) {
+/*
+@media (min-width: 50em) {
   .card__image {
     min-width: 25em;
   }
 }
-/*
+
 @media (max-width: 50em) {
   .card {
     flex-direction: column;
@@ -67,7 +67,6 @@ blockquote {
   }
 }
 */
-
 /*FOOTER STARTS*/
 
 footer {
