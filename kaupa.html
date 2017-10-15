@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kaupa</title>
+  <link rel="stylesheet" href="styles.css">
+  <div class="Forsidumynd">
+      <img src="bg.jpg" alt="">
+    </div>
+</head>
+<main>
+<body>
+  <header>
+    <h1 class="heading__one">Kaupa</h1>
+  </header>
+
+<div class = "cardlist">
+<legend> Persónuupplýsingar </legend>
+<div >
+  <label>
+    Nafn:
+      <input name= "nafn" type="text" required>
+  </label>
+</div>
+<div>
+  <label>
+  Kennitala:
+    <input text= "kennitala" type= "text" placeholder="123456-7890">
+
+  </label>
+</div>
+<div>
+  <label>
+    Kyn:
+    <div>
+    <input name="þjónusta" type="radio">Kona
+    </div>
+    <div>
+    <input name="þjónusta" type="radio">Karl
+    </div>
+    <div>
+    <input name="þjónusta" type="radio">Annað
+    </div>
+  </label>
+  </div>
+  <div>
+  <label>
+    Sími:
+      <input name= "simanr" type="tel" required placeholder="+354 812 3456">
+  </label>
+  </div>
+  <div>
+  <label>
+  Heimilisfang:
+    <input text= "heimilisfang" type= "text">
+    <div>
+    <input type="checkbox">
+  </div>
+  </label>
+  </div>
+</div>
+
+<div class="cardlist">
+  <legend> Greiðsluupplýsingar </legend>
+  <label>
+    Greiða með:
+    <div>
+  <select name="Greiða með">
+      <option value="fooþjónusta">Kreditkort</option>
+      <option value="barþjónusta">Debitkort</option>
+  </select>
+</div>
+</label>
+<div >
+  <label>
+    Nafn á korti:
+      <input name= "nafn" type="text" required>
+  </label>
+</div>
+<div>
+  <label>
+  Kortanúmer:
+    <input text= "kortanumer" type= "text" placeholder="5999-9999-9999-9999">
+  </label>
+</div>
+<div>
+  <label>
+  Gildistími:
+  <div>
+    Mán <input type="number"min="01" placeholder="01">
+    Ár <input type="number"min="2017"placeholder="2017">
+  </div>
+  </label>
+</div>
+</div>
+
+<button class="button">Kaupa</button>
+
+  </main>
+  <footer></footer>
+</body>
