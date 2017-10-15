@@ -1,12 +1,8 @@
   .cardlist {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10em;
+  margin-bottom: 5em;
   word-break: normal;
   text-align: center;
   justify-content: space-around;
-}
-
-.profile__img {
-  width: 100%;
 }
