@@ -36,6 +36,21 @@ header {
 .heading--one {
   color: white;
 }
+.cardlist {
+  padding: 5em;
+}
+.takki {
+  padding: 3em;
+}
+.texti {
+  font-size: 12px;
+  padding: 5px;
+}
+p {
+  font-size: 12px;
+  padding: 5px;
+}
+
 .button {
   max-width: 16em;
   width: 15em;
@@ -61,6 +76,7 @@ header {
 footer {
   background-color: #4d4d4d;
   color: white;
+  font-size: 16px;
 }
 
 .bottom {
@@ -98,4 +114,19 @@ footer {
   background-color: gray;
   border: none;
   border-radius: 5px;
+}
+@media (min-width: 600px) {
+  .cardlit {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    background-color: fff;
+  }
+}
+
+@media (min-width: 400px) {
+  .cardlist {
+    padding: none;
+    font-size: 20px;
+  }
 }

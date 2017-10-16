@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Kaupa</title>
   <link rel="stylesheet" href="kaupa.css">
+  <link rel="stylesheet" href="grid.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Roboto+Slab:400,700" rel="stylesheet">
 </head>
 
@@ -25,89 +26,72 @@
       <div class="row">
         <div class="cardlist col-6">
           <h3 class="heading heading--three"> Persónuupplýsingar </h3>
-          <div class="nafn">
-            <label>
-              Nafn:
+          <div class="texti">
+            <p>Nafn:</p>
               <input name= "nafn" type="text" required>
-            </label>
           </div>
-          <div class="kennitala">
-            <label>
-              Kennitala:
+          <div class="texti">
+            <p>Kennitala:</p>
               <input text= "kennitala" type= "text" placeholder="123456-7890">
-            </label>
           </div>
-          <div cass="kyn">
-            <label>
-              Kyn:
-              <div class= "kona">
+          <div cass="texti">
+            <p>Kyn:</p>
+              <div class= "texti">
                 <input name="þjónusta" type="radio">Kona
               </div>
-              <div class ="karl">
+              <div class ="texti">
                 <input name="þjónusta" type="radio">Karl
               </div>
-              <div class ="Annad">
+              <div class ="texti">
                 <input name="þjónusta" type="radio">Annað
               </div>
-            </label>
           </div>
-          <div class="simi">
-            <label>
-              Sími:
+          <div class="texti">
+            <p>Sími:</p>
               <input name= "simanr" type="tel" required placeholder="+354 812 3456">
-            </label>
           </div>
-          <div class="heimilisfang">
-            <label>
-              Heimilisfang:
+          <div class="texti">
+            <p>Heimilisfang:</p>
               <input text= "heimilisfang" type= "text">
-              <div>
+              <div class="checkbox">
                 <input type="checkbox">
+                Skrá mig á póstlista
               </div>
-            </label>
           </div>
         </div>
 
 
         <div class="cardlist col-6">
           <h3 class="heading heading--three"> Greiðsluupplýsingar </h3>
-          <label>
-            Greiða með:
-            <div>
-              <select name="Greiða með">
-                <option value="kreditkort">Kreditkort</option>
-                <option value="millifarslur">Millifærslu</option>
-                <option value="reidufe">Reiðufé</option>
+            <div class="texti">
+              <p>Greiða með:</p>
+              <select name="texti">
+                <option value="text">Kreditkort</option>
+                <option value="text">Millifærslu</option>
+                <option value="text">Reiðufé</option>
               </select>
             </div>
-          </label>
-          <div>
-            <label>
-              Nafn á korti:
+          <div class="texti">
+            <p>Nafn á korti:</p>
               <input name= "nafn" type="text" required>
-            </label>
           </div>
-          <div>
-            <label>
-              Kortanúmer:
+          <div class="texti">
+            <p>Kortanúmer:</p>
               <input text= "kortanumer" type= "text" placeholder="5999-9999-9999-9999">
-            </label>
           </div>
-          <div>
-            <label>
-              Gildistími:
+          <div class="texti">
+            <p>Gildistími:</p>
               <div>
-                Mán <input type="number"min="01" placeholder="01">
-                Ár <input type="number"min="2017"placeholder="2017">
+                 Mán <input type="number"min="01"max="12" placeholder="01">
+                 Ár <input type="number"min="2017" max="2099"placeholder="2017">
               </div>
-            </label>
           </div>
         </div>
       </div>
 
-
+      <div class="takki">
       <button class="button col-12">Pannta</button>
-
+      </div>
     </div>
 </main>
 <footer>
