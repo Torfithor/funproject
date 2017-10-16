@@ -1,0 +1,38 @@
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3em;
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.5em;
+  opacity: 0;
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+
+h3 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+}
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.6;
+}

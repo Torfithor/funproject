@@ -1,0 +1,22 @@
+.checklist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.checklist-row{
+  margin-bottom: 10em;
+}
+
+.checklist-row {
+  display: flex;
+}
+
+.checklist-h1{
+}
+.checklist-h2{
+}
+.checklist-h3{
+}
+.check__img {
+  margin: 5px;
+}
