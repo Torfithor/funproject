@@ -115,6 +115,9 @@ footer {
   border: none;
   border-radius: 5px;
 }
+.button--2:hover {
+  background-color: #4d4d4d;
+}
 @media (max-width: 600px) {
   .row {
     flex-wrap: wrap;
