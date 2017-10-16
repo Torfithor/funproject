@@ -39,7 +39,6 @@ html {
 }
 
 html {
-  font-family: Lato, helvetica, arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -67,6 +66,8 @@ footer {
 }
 .botnsidu {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
