@@ -77,17 +77,13 @@ blockquote {
 }
 
 @media (min-width: 401px) and (max-width: 600px){
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
+
   .row > .col-5 {
-    width: auto;
     display: inline;
   }
   .row > .col-7 {
     float: right;
+    height: 100%;
   }
   .middle {
     margin-left: 1em;
