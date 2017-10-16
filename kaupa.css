@@ -115,3 +115,18 @@ footer {
   border: none;
   border-radius: 5px;
 }
+@media (min-width: 600px) {
+  .cardlit {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    background-color: fff;
+  }
+}
+
+@media (min-width: 400px) {
+  .cardlist {
+    padding: none;
+    font-size: 20px;
+  }
+}
