@@ -8,13 +8,41 @@
 @import "css/checklist";
 @import "css/img";
 @import "css/media";
-@import "css/um";
 
 * {
   margin: 0;
   padding: 0;
 }
+.top {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  padding: 0.5em 1em;
+  justify-content: space-between;
+  color: white;
+}
 
+.top--buttons > button {
+  padding: 0.5em;
+}
+.button--1 {
+  background: transparent;
+  border: none;
+}
+
+.button--2 {
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.button--2:hover {
+  background-color: #4d4d4d;
+}
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -42,6 +70,7 @@ html {
   font-size: 16px;
   line-height: 1.5;
 }
+
 footer {
   margin-top: 1em;
   background-color: #4d4d4d;
@@ -68,6 +97,26 @@ footer {
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  margin-top: 1em;
+  background-color: #4d4d4d;
+  color: white;
+}
+
+.bottom {
+  border-top: solid gray 1px;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.leftright {
+  display: flex;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 main {
