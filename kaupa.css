@@ -21,7 +21,6 @@ header {
   background: transparent url(bg-subpage.jpg) no-repeat 50% 50%;
   background-size: cover;
   position: relative;
-  text-align: center;
   opacity: 0.8;
   width: 100%;
   height: 25em;
@@ -38,12 +37,16 @@ header {
 }
 
 .texti {
-  font-size: 12px;
   padding: 5px;
 }
+<<<<<<< HEAD
 
 .Storbox {
   width: 90%
+=======
+p {
+  padding: 5px;
+>>>>>>> eb8ef047c71ea52a2b6710f70d5da9b8b0127593
 }
 
 .Panta {
@@ -56,7 +59,12 @@ header {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
+<<<<<<< HEAD
   justify-content: center;
+=======
+  align-items: center;
+  flex: none;
+>>>>>>> eb8ef047c71ea52a2b6710f70d5da9b8b0127593
   display: flex;
 }
 
@@ -91,7 +99,6 @@ footer {
 .top {
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
-  padding: 0.5em 1em;
   justify-content: space-between;
   color: white;
 }
@@ -113,6 +120,7 @@ footer {
 a {
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 
 .button--2:hover {
