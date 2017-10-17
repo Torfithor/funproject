@@ -8,7 +8,6 @@
 @import "css/checklist";
 @import "css/img";
 @import "css/media";
-@import "css/um";
 
 * {
   margin: 0;
@@ -18,13 +17,52 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.top {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  padding: 0.5em 1em;
+  justify-content: space-between;
+  color: white;
+}
+
+.top--buttons > button {
+  padding: 0.5em;
+}
+.button--1 {
+  background: transparent;
+  border: none;
+}
+
+.button--2 {
+  color: inherit;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.button--2:hover {
+  background-color: #4d4d4d;
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
   height: 100%;
 }
 @keyframes fadeIn {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
@@ -38,10 +76,6 @@ html {
   margin: 0;
 }
 
-html {
-  font-size: 16px;
-  line-height: 1.5;
-}
 footer {
   margin-top: 1em;
   background-color: #4d4d4d;
@@ -53,6 +87,8 @@ footer {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
+  font-size: 0.8em;
+  opacity: 0.4;
 }
 
 .leftright {
@@ -61,13 +97,12 @@ footer {
   padding-top: 1em;
   padding-bottom: 1em;
 }
-.top {
 
-}
 .botnsidu {
   text-align: center;
   display: flex;
   flex-direction: column;
+  font-weight: bold;
 }
 
 main {

@@ -29,6 +29,9 @@
     .profile__img {
       width: 50%
     }
+    .leftright {
+      display: flex;
+      flex-direction: row;
   }
 }
 
@@ -43,4 +46,7 @@
       flex-direction: column;
       align-items: center;
   }
+  .leftright {
+    display: flex;
+    flex-direction: row;
 }

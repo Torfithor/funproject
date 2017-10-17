@@ -6,22 +6,19 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
 .heading {
   font-family: "Roboto Slab", serif;
-  margin: 1em;
+    font-weight: lighter;
 }
 
 header {
-  background: transparent url(bg-subpage.jpg);
+  background: transparent url(bg-subpage.jpg) no-repeat 50% 50%;
   background-size: cover;
   position: relative;
   text-align: center;
@@ -39,27 +36,19 @@ header {
 .cardlist {
   padding: 5em;
 }
-.takki {
-  padding: 3em;
-}
+
 .texti {
   font-size: 12px;
   padding: 5px;
 }
-p {
-  font-size: 12px;
-  padding: 5px;
+
+.Storbox {
+  width: 90%
 }
 
-.button {
-  max-width: 16em;
+.Panta {
   width: 15em;
   height: 3em;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
   border: solid 1px #666;
   border-radius: 4px;
   background-color: #666;
@@ -67,16 +56,18 @@ p {
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
   display: flex;
 }
 
 .button:hover {
   background-color: #333;
 }
+
 footer {
+  margin-top: 1em;
   background-color: #4d4d4d;
   color: white;
-  font-size: 16px;
 }
 
 .bottom {
@@ -84,6 +75,8 @@ footer {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
+  font-size: 0.8em;
+  opacity: 0.4;
 }
 
 .leftright {
@@ -92,6 +85,8 @@ footer {
   padding-top: 1em;
   padding-bottom: 1em;
 }
+
+/*TOP PART STARTS*/
 
 .top {
   background-color: rgba(0, 0, 0, 0.8);
@@ -102,7 +97,6 @@ footer {
 }
 
 .top--buttons > button {
-  color: white;
   padding: 0.5em;
 }
 .button--1 {
@@ -115,27 +109,21 @@ footer {
   border: none;
   border-radius: 5px;
 }
-.button--2:hover {
-  background-color: #4d4d4d;
-}
+
 a {
   text-decoration: none;
   color: white;
 }
-@media (max-width: 600px) {
-  .row {
-    flex-wrap: wrap;
-    display: flex;
-    width: 100%;
-  }
+
+.button--2:hover {
+  background-color: #4d4d4d;
 }
 
-@media (max-width: 400px) {
-  .cardlist {
-    font-size: 20px;
-  }
-  .header {
-    padding: none;
-    margin: none;
-  }
+/*TOP PART ENDS*/
+
+@media (max-width: 400px){
+.cardlist {
+  display: flex;
+  flex-direction: column;
+}
 }
