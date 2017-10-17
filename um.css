@@ -1,14 +1,14 @@
-* { /* stylelint-disable-line */
+* {
   margin: 0;
   padding: 0;
 }
 
-html { /* stylelint-disable-line */
+html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
-*, *:before, *:after { /* stylelint-disable-line */
+*, *:before, *:after {
   box-sizing: inherit;
 }
 p {
@@ -89,6 +89,10 @@ blockquote {
     align-items: center;
     float: right;
     flex-direction: column;
+  }
+  .middle {
+    margin-left: 1em;
+    margin-right: 1em;
   }
   .leftright {
     display: flex;
