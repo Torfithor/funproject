@@ -95,7 +95,6 @@ footer {
 .top {
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
-  padding: 0.5em 1em;
   justify-content: space-between;
   color: white;
 }
