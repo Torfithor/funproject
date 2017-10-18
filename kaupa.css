@@ -13,8 +13,12 @@ html {
 }
 
 .heading {
-  font-family: "Roboto Slab", serif;
-    font-weight: lighter;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 4em;
+  padding-left: 0.5em;
 }
 
 header {
