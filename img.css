@@ -1,9 +1,9 @@
-img.profile__img {
+.profile__img {
   border-radius: 50%;
   padding-bottom: 1em;
 }
 
-img.check__img {
+.check__img {
   width: 2em;
   float: left;
 }
